@@ -5,7 +5,15 @@
   box-sizing: border-box;
   overflow: hidden;
 }
-
+.app-container {
+    width: 100vw; /* Full viewport width */
+    min-height: 100vh; /* Full viewport height */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
 .landing-page {
   position: relative;
   width: 100vw;
